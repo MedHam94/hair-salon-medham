@@ -1,0 +1,212 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  font-size: 1.2vw;
+}
+
+a{
+  text-decoration: none;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+/*NavBar*/
+
+header {
+  height: 3vw;
+  padding: 1vw 7vw;
+}
+
+header nav *{
+  float: left;
+}
+
+header ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 70%;
+}
+header ul li{
+  width: 12.5%;
+  
+}
+
+header ul a {
+  color: black;
+  font-family: 'Instrument Serif', serif;
+  letter-spacing: .1vw;
+}
+header img{
+  width: 15%;
+}
+
+header span{
+  padding-left: 6vw;
+}
+
+/*Main*/
+
+  /*Main First*/
+  main .first{
+    
+    background: #c4bec2;
+    padding: 1vw 14vw;
+  }
+
+  main .first h1 {
+    font-family: 'Instrument Serif', serif;
+    padding-top: 3vw;
+    padding-right: 38vw;
+    margin-bottom: 0;
+    font-size: 7vw;
+    letter-spacing: .5vw;
+    font-weight: 100;
+}
+
+  main .first p {
+    font-family: 'Instrument Serif', serif;
+    letter-spacing: .3vw;
+  }
+      /*First Button*/
+  main .first .first-button {
+    background: black;
+    display: inline-block;
+    color: white;
+    padding: 1vw 1.7vw;
+}  
+      /*Bloc*/
+
+      main .bloc {
+        width: 20vw;
+        padding: 3vw 2vw 1vw 2vw;
+        background: black;
+        height: 20vw;
+        color: white;
+        margin: 8vw 0 0;
+        display: block;
+    }
+
+    main .bloc p{
+      padding-top: 1vw;
+      font-size: 1vw;
+      line-height: 2;
+    }
+
+    main .bloc p span {
+      font-size: 2vw;
+      font-weight: 600;
+  }
+
+  /*Main Second*/
+  .second{
+    padding: 6vw 18vw 0;
+  }
+  main .second > div {
+    float: left;
+    margin-bottom: 6vw;
+    font-family: 'Instrument Serif', serif;
+    width: 33.33%;
+    padding: 0vw 3vw;
+    letter-spacing: .2vw;
+    word-spacing: .2vw;
+}
+
+/*Fourth*/
+
+main .third{
+  background: #f3f4f6;
+  padding: 1vw 14vw;
+  clear: both;
+  height: 35vw;
+}
+main .third > section{
+  float: left;
+  width: 50%;
+}
+  /*left*/
+main .third .left{
+  padding-right: 4vw;
+} 
+main .third .left h3{
+  font-size: 2.5vw;
+  line-height: 1.5;
+}
+main .third .left p{
+  line-height: 2;
+}
+
+main .third .left a{
+  background: black;
+  display: inline-block;
+  color: white;
+  padding: 1vw 3vw;
+  margin: 2vw 0;
+}
+
+/*Right*/
+.third .right{
+  padding: 4vw 1vw 1vw 1vw;
+}
+.third .right div{
+  background: #eac59b;
+  width: 37vw;
+  height: 24vw;
+}
+
+/*Fourth*/
+.fourth{
+  padding: 1vw 14vw;
+}
+    /*beauticians*/
+    .fourth .beauticians{
+      background: #e0b494;
+    }
+    
+    .fourth .beauticians > * {
+      float: left;
+      width: 27%;
+      margin: 0 4vw 0 0vw;
+      background: #f2f3f5;
+      height: 20vw;
+      position: relative;
+  }
+
+  /*Names*/
+
+  .fourth .beauticians div div {
+    background: black;
+    color: white;
+    position: absolute;
+    bottom: -2vw;
+    right: 4vw;
+    width: 12vw;
+    height: 4vw;
+    text-align: center;  
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
